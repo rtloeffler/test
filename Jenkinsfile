@@ -6,11 +6,6 @@ pipeline {
         echo 'Starting Deploy'
       }
     }
-    stage('Step 2') {
-      steps {
-        writeFile(file: 'env.php', text: 'testing this text')
-      }
-    }
     stage('Last Step') {
       steps {
         echo 'Last stage'
