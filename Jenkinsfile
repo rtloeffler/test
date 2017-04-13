@@ -9,7 +9,6 @@ pipeline {
     stage('Last Step') {
       steps {
         echo 'Last stage'
-        git(branch: 'master', url: 'https://github.com/rtloeffler/test')
       }
     }
   }
