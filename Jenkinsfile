@@ -4,10 +4,6 @@ pipeline {
     stage('Step 1') {
       steps {
         echo 'Starting Deploy'
-        dir(path: '/var/www/html') {
-          sleep 2
-        }
-        
       }
     }
     stage('Step 2') {
