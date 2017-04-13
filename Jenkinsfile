@@ -9,7 +9,8 @@ pipeline {
     stage('Last Step') {
       steps {
         echo 'Last stage'
-        sh '''cd /var/www/html/;
+        sh '''#!/bin/bash
+cd /var/www/html/;
 touch something.html;'''
       }
     }
