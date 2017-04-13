@@ -10,7 +10,7 @@ pipeline {
     stage('Last Step') {
       steps {
         echo 'Last stage'
-        sh 'mv /var/lib/jenkins/workspace/rtloeffler_test_master-JI757GB3H5UKRID4J7XXPN5M6QSMBY56Y5SNG7H5XASDNKFHI3KQ /var/www/html;'
+        sh 'mv /var/lib/jenkins/workspace/rtloeffler_test_master-JI757GB3H5UKRID4J7XXPN5M6QSMBY56Y5SNG7H5XASDNKFHI3KQ /var/www/html/;'
       }
     }
   }
